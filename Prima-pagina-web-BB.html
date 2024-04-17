@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Breaking Bad </title>
+  
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="./img-fonts/favicon.png" type="image/x-icon">
+  
+  <!--FONTAWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="style-Breaking-Bad.css">
+  
+</head>
+
+<body>
+  
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-colorG fixed-top" aria-label="navbar-BB">
+    <div class="container-fluid d-flex justify-content-center align-items-center">
+      <a class="navbar-brand text-color-Y text-font-St ms-2 me-5" href="#">BB</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-BB" 
+           aria-controls="navbar-BB" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+      </button>
+      
+    
+    <div class="collapse navbar-collapse" id="navbar-BB">
+      <ul class="navbar-nav mb-2 mb-lg-0 mx-auto ">
+        <li class="nav-item">
+          <a class="nav-link text-color-Y" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item d-flex">
+          <a class="nav-link text-color-Y" href="#card1">Link1</a>
+          <a class="nav-link text-color-Y" href="#card2">Link2</a>
+          <a class="nav-link text-color-Y" href="#card3">Link3</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-color-Y" href="#section-stagioni" 
+          data-bs-toggle="dropdown" aria-expanded="false">Stagioni</a>
+          <ul class="dropdown-menu bg-colorG">
+            <li><a class="dropdown-item text-color-Y" href="#s1">Stagione 1</a></li>
+            <li><a class="dropdown-item text-color-Y" href="#s2">Stagione 2</a></li>
+            <li><a class="dropdown-item text-color-Y" href="#s3">Stagione 3</a></li>
+          </ul>
+        </li>
+      </ul>  
+      <form role="search">
+        <input class="form-control btn-search-custom" type="search" placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+    
+  </div>
+</nav>
+<!--END NAVBAR -->
+
+<!--HEADER-->
+<div class="container-fluid margin-custom vh-100 bg-custom1">
+  <div class="row h-75">
+    <div class="col-12">
+      
+    </div>
+  </div>
+  
+  <div class="row h-25">
+    <div class="col-12 d-flex flex-column align-items-center">
+      <h1 class="text-color-G text-font-T mt-2"> BREAKING BAD </h1>
+      <a href="#section-stagioni"><i class="fa-solid fa-caret-down fa-2xl mb-3" style="color: #0c4f08;"></i></a> 
+    </div>
+  </div>
+</div>
+<!--END HEADER-->
+
+<!-- MAIN -->
+
+<!--Section Cards-->
+<div class="container-fluid min-vh-100 bg-custom2" id="section-cards">
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center mt-5">
+      <h2 class="text-font-St text-color-Y"> I AM NOT IN DANGER...I AM THE DANGER</h2>
+    </div>
+  </div>
+  
+  <div class="row mt-3">
+    <div class="col-12 mt-2 col-md-4 d-flex justify-content-center" id="card1">
+      <div class="card-custom" >
+        <img src="./img-fonts/lab1.png" class="card-img-top" alt="Immagine laboratorio1">
+        <div class="card-body">
+          <h5 class="card-title text-center text-color-Y"> <em>Laboratorio in camper</em></h5>
+          <p class="card-text text-center">Un professore di chimica di un liceo di Albuquerque. 
+            Quando scopre di essere in fin di vita a causa di un cancro ai polmoni, 
+            decide di usare il suo talento per produrre metanfetamine 
+            e guadagnare abbastanza denaro da destinare alla moglie Skyler e ai figli Walter Junior e Holly.</p>
+            <a href="#" class="btn btn-custom">Leggi la trama</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-12 mt-2 col-md-4 d-flex justify-content-center" id="card2">
+        <div class="card-custom" >
+          <img src="./img-fonts/lab2.png" class="card-img-top" alt="Immagine laboratorio2">
+          <div class="card-body">
+            <h5 class="card-title text-center text-color-Y "> <em>Laboratorio in fabbrica</em></h5>
+            <p class="card-text text-center">Un professore di chimica di un liceo di Albuquerque. 
+              Quando scopre di essere in fin di vita a causa di un cancro ai polmoni, 
+              decide di usare il suo talento per produrre metanfetamine 
+              e YuadaYnare abbastanza denaro da destinare alla moglie Skyler e ai figli Walter Junior e Holly.</p>
+              <a href="#" class="btn btn-custom">Leggi la trama</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 mt-2 mb-2 col-md-4 d-flex justify-content-center" id="card3">
+          <div class="card-custom" >
+            <img src="./img-fonts/lab3.png" class="card-img-top" alt="Immagine laboratorio3">
+            <div class="card-body">
+              <h5 class="card-title text-center text-color-Y"> <em>Laboratorio in casa</em></h5>
+              <p class="card-text text-center">Un professore di chimica di un liceo di Albuquerque. 
+                Quando scopre di essere in fin di vita a causa di un cancro ai polmoni, 
+                decide di usare il suo talento per produrre metanfetamine 
+                e guadagnare abbastanza denaro da destinare alla moglie Skyler e ai figli Walter Junior e Holly.</p>
+                <a href="#" class="btn btn-custom">Leggi la trama</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      <!--End Section cards-->
+      
+      <!--Section Caroselli-->
+      <div class="container-fluid min-vh-100 bg-custom3" id="section-stagioni">
+        <div class="row">
+          <div class="col-12 col-md-8 mx-auto mt-5 mb-3">
+            <div id="caroselli-stagioni" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#caroselli-stagioni" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#caroselli-stagioni" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#caroselli-stagioni" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" id="s1">
+                  <img src="./img-fonts/stagione-1.png" class="d-block h-75 w-100" alt="Immagine-prima-stagione">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Prima Stagione</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, omnis.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, omnis.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, omnis.</p>
+                  </div>
+                </div>
+                
+                <div class="carousel-item" id="s2">
+                  <img src="./img-fonts/stagione-2.png" class="d-block h-75 w-100" alt="Immagine-seconda-stagione">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Seconda stagione</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, omnis.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, omnis.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, omnis.</p>
+                  </div>
+                </div>
+                
+                <div class="carousel-item" id="s3">
+                  <img src="./img-fonts/stagione-3.png" class="d-block h-75 w-100" alt="Immagine-terza-stagione">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Terza stagione</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, omnis.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, omnis.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, omnis.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <button class="carousel-control-prev" type="button" data-bs-target="#caroselli-stagioni" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              
+              <button class="carousel-control-next" type="button" data-bs-target="#caroselli-stagioni" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--End section Caroselli-->
+      
+      <!--  END MAIN -->
+      
+      <!-- FOOTER -->
+      
+      <div class="container-fluid bg-colorY ps-4 pe-3 py-2">
+        <div class="row">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center pe-3">
+            <div class="col-12 col-md-4 d-flex align-items-center">
+                <img src="./img-fonts/logo-BB.png" alt="logo BB" class="logo-custom">
+                <span class="mb-3 mb-md-0 text-color-G">©All Rights Reserved</span>
+            </div>
+            
+            <div class="col-12 col-md-4 d-flex align-items-center ps-5">
+              <span class="mb-3 mb-md-0 me-2 ms-5 text-color-G text-font-P fs-3">Guarda la serie su</span>
+              <a href=""> <i class="fa-brands fa-amazon fa-xl mt-2" style="color: #0c4f08;"></i> </a>
+            </div>
+            
+            <ul class="nav col-12 col-md-4 justify-content-end list-unstyled d-flex pe-3">
+              <li class="ms-3"><a href="#"><i class="fa-brands fa-facebook fa-2xl" style="color: #0c4f08;"></i></a></li>
+              <li class="ms-3"><a href="#"><i class="fa-brands fa-instagram fa-2xl" style="color: #0c4f08;"></i></a></li>
+              <li class="ms-3"><a href="#"><i class="fa-brands fa-twitter fa-2xl" style="color: #0c4f08;"></i></a></li>
+            </ul>
+          </footer>
+        </div>
+        
+      </div>
+      
+      
+      <!-- END FOOTER -->
+      
+                      
+      
+      <!--FONTAWESOME-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" 
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      
+      <!-- BOOTSTRAP -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      
+    </body>
+    </html>

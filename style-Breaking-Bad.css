@@ -1,0 +1,235 @@
+:root{
+
+    --main1: rgb(12, 79, 8);
+    --main2: rgb(233, 186, 31);
+    --colorW: rgb(237, 236, 212);
+    --colorB: rgb(1, 9, 22);
+    }
+
+@font-face{ font-family: Titoli;
+            src: url(./img-fonts/Trick\ or\ Treats.ttf);
+
+}
+
+@font-face{ font-family: Sottotitoli;
+    src: url(./img-fonts/Halloween\ Fears.ttf);
+    
+}
+
+@font-face{ font-family: Paragrafi;
+    src: url(./img-fonts/NITROGEN.ttf);
+    
+}
+
+.text-color-G {
+    color: var(--main1);
+}
+
+.text-color-Y {
+    color: var(--main2);
+}
+
+.text-color-W {
+    color: var(--colorW);
+}
+
+.text-color-B {
+    color: var(--colorB);
+}
+
+.text-font-T {
+    font-family: Titoli;
+}
+
+.text-font-St {
+    font-family: Sottotitoli;
+}
+
+.text-font-P {
+    font-family: Paragrafi;
+}
+
+.bg-custom1 {
+    background-image: url(./img-fonts/Sfondo-1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100%;
+    width:100%;
+    
+    
+}
+
+
+h1{
+    font-size: 80px;  
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.bg-colorY{
+    background-color: var(--main2);
+}
+
+.bg-colorG{
+    background-color: var(--main1);
+}
+
+
+.navbar{
+    border-top: 2px solid black;
+    border-bottom: 2px solid  black;
+
+}
+
+.dropdown-menu {
+    border: 2px solid black;
+}
+
+.margin-custom {
+     margin-top: 59.2px;
+
+}
+
+.navbar-brand:hover{
+    color: var(--main2);
+    transform: scale(1.5);
+}
+
+.navbar-brand:visited{
+    color: var(--main2);
+}
+
+.nav-link:hover{
+    color: var(--main2);
+    }
+
+.nav-link:visited{
+        color: var(--main2);
+    }
+
+.nav-link:focus{
+    color: var(--main2);
+}    
+        
+.arrow-custom {
+    color: var(--main2);
+}
+
+.btn-search-custom{
+
+    border: 2px solid var(--main2);
+}
+
+.bg-custom2{
+    background-image: url( ./img-fonts/Sfondo-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.btn-custom{
+    background-color: var(--main1);
+    color: var(--main2);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+
+}
+
+
+.card-custom{
+    background-color: var(--colorB);
+    color: var(--colorW);
+    border: 2px solid var(--main2);
+        
+    }
+
+.bg-custom3{
+        background-image: url( ./img-fonts/Sfondo-3.png);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+.carousel-caption{
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding-top: 1.25rem;
+        padding-bottom: 45%;
+        color: #fff;
+        text-align: center
+        }
+
+.logo-custom {
+    height: 40px;
+    width: 40px;
+
+}        
+
+h1{
+        opacity: 1;
+        animation: Titolo-a-scomparsa 5s linear 0s 1 backwards;
+    }
+
+    @keyframes Titolo-a-scomparsa {
+
+        from{opacity: 0;
+
+        }
+        
+        to{opacity: 1;
+
+        }
+    }
+
+@media  screen and (max-width: 870px)   {
+        h1{
+            font-size: 40px;
+            text-align: center;
+        }
+
+        h2{
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .bg-custom1 {
+            background: url(./img-fonts/Sfondo-1.png), var(--colorB);
+            background-repeat: no-repeat;
+            background-size:contain;
+            background-position: center;
+            height: 100%;
+            width:100%;
+            
+            
+        }
+        
+    }
+
+@media screen and (max-width: 1100px) {
+
+        .carousel-caption{
+            position: absolute;
+            right: 15%;
+            bottom: 1.25rem;
+            left: 15%;
+            padding-top: 1.25rem;
+            padding-bottom: 15%;
+            color: #fff;
+            text-align: center
+            }
+
+    }
+    
+    
+    
